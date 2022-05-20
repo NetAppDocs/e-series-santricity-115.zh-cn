@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-data-assurance.html 
+sidebar: sidebar 
+keywords: data, assurance 
+summary: '数据保证(Data Assurance、DA)可检查并更正在主机和存储阵列之间传输数据时可能发生的错误。DA功能在System Manager的池和卷组级别提供。' 
+---
+= 什么是数据保证？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+数据保证(Data Assurance、DA)可检查并更正在主机和存储阵列之间传输数据时可能发生的错误。DA功能在System Manager的池和卷组级别提供。
+
+数据保证(Data Assurance、DA)功能可提高整个存储系统的数据完整性。通过DA、存储阵列可以检查在主机和驱动器之间移动数据时可能发生的错误。启用此功能后、存储阵列会向卷中的每个数据块附加错误检查代码(也称为循环冗余检查或CRC)。移动数据块后、存储阵列会使用这些CRC代码来确定传输期间是否发生任何错误。可能损坏的数据既不会写入磁盘、也不会返回到主机。
+
+如果要使用DA功能、请在创建新卷时选择一个支持DA的池或卷组(在Pool and volume group candidates表中的DA旁边查找*是*)。
+
+请确保使用支持DA的I/O接口将这些启用了DA的卷分配给主机。支持DA的I/O接口包括光纤通道、SAS、基于TCP/IP的iSCSI和基于InfiniBand的iSER (适用于RDMA/IB的iSCSI扩展)。基于InfiniBand的SRP不支持DA。

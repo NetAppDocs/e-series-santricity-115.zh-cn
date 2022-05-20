@@ -1,0 +1,34 @@
+---
+permalink: sm-support/view-nvme-over-fabrics-statistics-support.html 
+sidebar: sidebar 
+keywords: view, nvme, fabrics, statistics 
+summary: 您可以查看有关通过网络结构连接到存储阵列的NVMe的数据。 
+---
+= 查看基于网络结构的NVMe统计信息
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以查看有关通过网络结构连接到存储阵列的NVMe的数据。
+
+System Manager会显示这些类型的基于网络结构的NVMe统计信息。所有统计信息均为只读、无法设置。
+
+* * NVMe子系统统计信息*-提供NVMe控制器的统计信息、包括超时和连接故障。
+* * RDMA接口统计信息*-提供RDMA接口的统计信息、包括接收和传输的数据包信息。
+
+
+您可以将其中每个统计信息作为原始统计信息或基线统计信息进行查看。原始统计信息是自控制器启动以来收集的所有统计信息。基线统计信息是自设置基线时间以来收集的时间点统计信息。
+
+您可以从系统页面(菜单：设置[系统])或支持页面访问基于网络结构的NVMe统计信息。以下说明介绍了如何从支持页面访问统计信息。
+
+.步骤
+. 选择菜单：Support[支持中心>诊断]选项卡。
+. 选择*查看基于网络结构的NVMe统计信息*。
+. 要设置基线、请单击*设置新基线*。
++
+设置基线将为统计信息的收集设置一个新的起点。所有NVMe统计信息都使用相同的基线。
+
+

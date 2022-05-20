@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html 
+sidebar: sidebar 
+keywords: how, what, know, certificates, need, uploaded, system manager 
+summary: 对于外部密钥管理、您可以导入两种类型的证书、以便在存储阵列和密钥管理服务器之间进行身份验证、从而使这两个实体可以相互信任。 
+---
+= 如何知道需要将哪些证书上传到System Manager？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+对于外部密钥管理、您可以导入两种类型的证书、以便在存储阵列和密钥管理服务器之间进行身份验证、从而使这两个实体可以相互信任。
+
+客户端证书用于验证存储阵列的控制器、以便密钥管理服务器可以信任其IP地址。要获取客户端证书、您必须完成存储阵列的CSR、然后将其上传到密钥管理服务器。从服务器生成客户端证书、然后使用System Manager导入该证书。
+
+密钥管理服务器证书用于验证密钥管理服务器、以便存储阵列可以信任其IP地址。要获取密钥管理服务器证书、必须从密钥管理服务器生成该证书。

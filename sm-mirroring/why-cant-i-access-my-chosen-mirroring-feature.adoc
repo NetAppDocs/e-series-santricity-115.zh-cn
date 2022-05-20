@@ -1,0 +1,24 @@
+---
+permalink: sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html 
+sidebar: sidebar 
+keywords: access, mirror, feature 
+summary: 要使用异步镜像功能或同步镜像功能、您必须通过HTTPS连接在本地主机上运行SANtricity 统一管理器、以发现支持镜像的存储阵列并启动镜像操作。在Unified Manager中、您必须选择要从中镜像数据的存储阵列、然后单击启动以打开SANtricity 系统管理器。 
+---
+= 为什么我无法访问所选的镜像功能？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要使用异步镜像功能或同步镜像功能、您必须通过HTTPS连接在本地主机上运行SANtricity 统一管理器、以发现支持镜像的存储阵列并启动镜像操作。在Unified Manager中、您必须选择要从中镜像数据的存储阵列、然后单击启动以打开SANtricity 系统管理器。
+
+要使用镜像功能、请验证以下内容：
+
+* Web服务代理服务正在运行。
+* SANtricity 统一管理器正在通过HTTPS连接在本地主机上运行。
+* SANtricity 统一管理器显示的是存储阵列的有效SSL证书。您可以使用Unified Manager接受自签名证书或安装自己的安全证书、并导航到菜单：Certificate[证书管理]。
+* SANtricity System Manager可从Unified Manager启动。
+* 您必须已发现要在其中镜像数据的两个存储阵列。然后、在Unified Manager中、选择主卷的存储阵列并单击*启动*以打开基于浏览器的SANtricity 系统管理器。
+

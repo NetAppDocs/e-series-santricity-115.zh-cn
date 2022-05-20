@@ -1,0 +1,22 @@
+---
+permalink: sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html 
+sidebar: sidebar 
+keywords: synchronous, mirroring, create, mirrored path 
+summary: 在创建镜像对之前、请确保您的环境符合以下准则。 
+---
+= 同步镜像—在创建镜像对之前、我需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在创建镜像对之前、请确保您的环境符合以下准则。
+
+* 您必须在远程存储阵列上具有足够的可用容量、才能创建一个等于或大于要镜像的主卷的二级卷。
+* 您必须有两个存储阵列。
+* 每个存储阵列必须具有两个控制器。
+* 您必须知道本地和远程存储阵列的密码。
+* 本地和远程存储阵列必须通过光纤通道网络结构进行连接。
+* 您必须已发现要在其中镜像数据的两个存储阵列。然后、在Unified Manager中、选择主卷的存储阵列、然后单击启动以打开基于浏览器的SANtricity 系统管理器。
+

@@ -1,0 +1,130 @@
+---
+permalink: sm-interface/how-do-i-know-which-host-operating-system-type-is-correct.html 
+sidebar: sidebar 
+keywords: host, operating, system, type, correct 
+summary: '主机操作系统类型字段包含主机的操作系统。您可以从下拉列表中选择建议的主机类型、也可以允许主机上下文代理(Host Context Agent、HCA)配置主机和相应的主机操作系统类型。' 
+---
+= 如何知道哪种主机操作系统类型正确？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+主机操作系统类型字段包含主机的操作系统。您可以从下拉列表中选择建议的主机类型、也可以允许主机上下文代理(Host Context Agent、HCA)配置主机和相应的主机操作系统类型。
+
+|===
+| 主机操作系统类型 | 操作系统(OS)和多路径驱动程序 
+
+
+ a| 
+AIX MPIO
+ a| 
+高级交互式管理(AIX)操作系统和原生 MPIO驱动程序
+
+
+
+ a| 
+AVT_400万
+ a| 
+Silicon Graphics、Inc.(SGI)专有多路径驱动程序；有关详细信息、请参见SGI安装文档
+
+
+
+ a| 
+出厂默认值
+ a| 
+这是为首次启动存储阵列预留的、应进行更改以匹配特定主机所使用的主机操作系统和多路径驱动程序
+
+
+
+ a| 
+HP-UX
+ a| 
+采用原生 多路径驱动程序的HP-UX操作系统
+
+
+
+ a| 
+Linux (ATTO)
+ a| 
+Linux操作系统和ATTO Technology、Inc.驱动程序(必须使用ATTO FC HBA)
+
+
+
+ a| 
+Linux (DM-MP)
+ a| 
+Linux操作系统和原生 DM-MP驱动程序
+
+
+
+ a| 
+Linux (Pathmanager)
+ a| 
+Linux操作系统和SGI专有多路径驱动程序；有关详细信息、请参见SGI安装文档
+
+
+
+ a| 
+Mac OS
+ a| 
+Mac OS和ATTO Technology、Inc.驱动程序
+
+
+
+ a| 
+ONTAP
+ a| 
+FlexArray
+
+
+
+ a| 
+Solaris (11或更高版本)
+ a| 
+Solaris 11或更高版本的操作系统以及原生 MPxIO驱动程序
+
+
+
+ a| 
+Solaris (版本10或更早版本)
+ a| 
+Solaris 10或更早版本的操作系统以及原生 MPxIO驱动程序
+
+
+
+ a| 
+服务
+ a| 
+IBM SAN卷控制器
+
+
+
+ a| 
+VMware
+ a| 
+ESXi操作系统
+
+
+
+ a| 
+Windows或Windows集群模式
+ a| 
+具有DSM驱动程序的Windows Server操作系统和Windows MPIO
+
+
+
+ a| 
+Windows (ATTO)
+ a| 
+Windows操作系统和ATTO Technology、Inc.驱动程序
+
+|===
+安装HCA并将存储连接到主机后、HCA会通过I/O路径将主机拓扑发送到存储控制器。根据主机拓扑、存储控制器会自动定义主机和关联的主机端口、然后设置主机类型。
+
+[NOTE]
+====
+如果HCA未选择建议的主机类型、则必须在System Manager中手动设置主机类型。
+
+====

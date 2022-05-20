@@ -1,0 +1,70 @@
+---
+permalink: sm-interface/whats-new-in-sam.html 
+sidebar: sidebar 
+keywords: new, santricity, system manager 
+summary: System Manager包括以下新功能。 
+---
+= SANtricity System Manager中的新增功能
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager包括以下新功能。
+
+
+
+== 11.53 版中的新增功能
+
+此版本仅包含少量增强功能和修复。
+
+
+
+== 11.52 版中的新增功能
+
+|===
+| 新增功能 | Description 
+
+
+ a| 
+基于 FC 的 NVMe 主机接口
+ a| 
+现在、除了现有对基于RoCE的NVMe和基于InfiniBand的NVMe的支持之外、还可以为EF570或E5700控制器型号订购基于光纤通道的NVMe主机连接。System Manager在菜单：设置[系统]中的"NVMe over Fibre Channel details"下提供了有关此新连接类型的统计信息。
+
+|===
+
+
+== 11.51 版中的新增功能
+
+此版本仅包含少量增强功能和修复。
+
+
+
+== 11.50 版中的新增功能
+
+|===
+| 新增功能 | Description 
+
+
+ a| 
+基于 RoCE 的 NVMe 接口
+ a| 
+现在、可以为EF570或E5700 DE系列控制器订购基于RoCE的NVMe主机连接。System Manager提供了用于配置与主机的网络连接的新功能(可从硬件页面或菜单：设置(系统)获得)、以及用于查看有关通过RoCE连接到存储阵列的NVMe的数据的功能(可从菜单：Support[支持中心]或菜单：Settings[系统]获得)。
+
+
+
+ a| 
+手动选择卷组的驱动器
+ a| 
+除了方便的自动选择之外，在创建卷组时，还可以使用一个新选项来选择各个驱动器。通常，建议自动选择驱动器，但单个驱动器选择选项可用于具有特殊驱动器位置要求的环境。
+
+
+
+ a| 
+SANtricity 统一管理器
+ a| 
+Unified Manager 是一款单独安装的基于浏览器的应用程序，用于发现和管理 E2800 系列控制器和 E5700 系列控制器。虽然这一新应用程序不是 System Manager 的新功能，但它提供了一个基于浏览器的新企业框架，可从中为已发现的存储阵列启动 System Manager 。可以从支持软件下载区域下载新的 Unified Manager 。
+
+|===

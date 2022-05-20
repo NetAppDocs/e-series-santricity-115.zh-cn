@@ -1,0 +1,14 @@
+---
+permalink: sm-mirroring/mirror-volumes-asynchronously.html 
+sidebar: sidebar 
+keywords: mirror, volumes, asynchronously 
+summary: '通过异步镜像功能、卷可以具有两个物理副本、这样有助于提高数据可用性并最大限度地减少停机时间。每个异步镜像关系都涉及一个主角色中的一个卷和一个二级角色中的一个卷(位于不同的存储阵列上)。' 
+---
+= 异步镜像卷
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过异步镜像功能、卷可以具有两个物理副本、这样有助于提高数据可用性并最大限度地减少停机时间。每个异步镜像关系都涉及一个主角色中的一个卷和一个二级角色中的一个卷(位于不同的存储阵列上)。

@@ -1,0 +1,33 @@
+---
+permalink: sm-settings/reset-management-certificates.html 
+sidebar: sidebar 
+keywords: reset, management, certificates 
+summary: 您可以将存储阵列上的管理证书还原为出厂自签名状态。 
+---
+= 重置管理证书
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以将存储阵列上的管理证书还原为出厂自签名状态。
+
+.开始之前
+* 您必须使用包含安全管理员权限的用户配置文件登录。否则、不会显示证书功能。
+* 必须事先导入证书。
+
+
+重置存储阵列上的管理证书会从每个控制器中删除当前的管理证书。重置证书后、控制器将还原为使用自签名证书。
+
+.步骤
+. 选择菜单：设置[证书]。
+. 从*阵列管理*选项卡中、选择*重置*。
++
+此时将打开一个*确认重置管理证书*对话框。
+
+. 在字段中键入`reset`、然后单击*重置*。
+
+
+浏览器刷新后、控制器将还原为使用自签名证书。因此、系统会提示用户为其会话手动接受自签名证书。

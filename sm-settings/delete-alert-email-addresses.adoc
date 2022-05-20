@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/delete-alert-email-addresses.html 
+sidebar: sidebar 
+keywords: delete, email, addresses, alerts 
+summary: 您可以删除接收电子邮件警报的收件人的电子邮件地址。 
+---
+= 删除警报的电子邮件地址
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以删除接收电子邮件警报的收件人的电子邮件地址。
+
+.步骤
+. 选择菜单：设置[警报]。
+. 选择*电子邮件*选项卡。
+. 从*电子邮件地址*表中、选择要删除的电子邮件地址。
++
+表右上角的*删除*按钮可供选择。
+
+. 单击 * 删除 * 。
++
+此时将打开*确认删除电子邮件*对话框。
+
+. 确认此操作、然后单击*删除*。
+
+
+警报不再发送到此电子邮件地址。

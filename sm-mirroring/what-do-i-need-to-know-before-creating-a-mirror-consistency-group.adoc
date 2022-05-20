@@ -1,0 +1,23 @@
+---
+permalink: sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html 
+sidebar: sidebar 
+keywords: creating,  mirror, consistency group 
+summary: 您必须已安装基于浏览器的SANtricity Unified Manager、并已发现要在其之间镜像数据的两个存储阵列。然后、在Unified Manager中、选择主卷的存储阵列并单击启动以打开基于浏览器的SANtricity 系统管理器。 
+---
+= 在创建镜像一致性组之前、我需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您必须已安装基于浏览器的SANtricity Unified Manager、并已发现要在其之间镜像数据的两个存储阵列。然后、在Unified Manager中、选择主卷的存储阵列、然后单击启动以打开基于浏览器的SANtricity 系统管理器。
+
+此外、请确保满足以下条件：
+
+* 您必须在远程存储阵列上具有足够的可用容量、才能创建一个等于或大于要镜像的主卷的二级卷。
+* 您必须有两个存储阵列。
+* 每个存储阵列必须具有两个控制器。
+* 您必须知道本地和远程存储阵列的密码。
+* 本地和远程存储阵列必须通过光纤通道网络结构或iSCSI接口进行连接。
+
