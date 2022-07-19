@@ -31,9 +31,9 @@ summary: 您可以异步镜像卷以在远程存储阵列上维护数据、使�
 
 异步镜像卷的过程是一个多步骤操作步骤 ：
 
-* <<Step 1: Create a mirror consistency group or select an existing one>>
-* <<Step 2: Select the primary volume>>
-* <<Step 3: Select the secondary volume>>
+*  1: Create a mirror consistency group or select an existing one
+*  2: Select the primary volume
+*  3: Select the secondary volume
 
 
 一个卷只能参与一个镜像关系。
@@ -85,7 +85,7 @@ System Manager会首先在本地存储阵列上创建镜像一致性组、然后
 ====
 
 
-. 选择*下一步*并转到 <<Step 2: Select the primary volume>>。
+. 选择*下一步*并转到  2: Select the primary volume。
 
 
 
@@ -114,7 +114,7 @@ System Manager会首先在本地存储阵列上创建镜像一致性组、然后
 
 
 
-. 选择*下一步*并转到 <<Step 3: Select the secondary volume>>。
+. 选择*下一步*并转到  3: Select the secondary volume。
 
 
 

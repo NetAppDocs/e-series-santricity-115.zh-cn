@@ -26,9 +26,9 @@ summary: 您可以同步镜像卷、以便在存储阵列之间实时复制数�
 
 同步镜像卷的过程分为多步操作步骤 ：
 
-* <<Step 1: Select the primary volume>>
-* <<Step 2: Select the secondary volume>>
-* <<Step 3: Select synchronization settings>>
+*  1: Select the primary volume
+*  2: Select the secondary volume
+*  3: Select synchronization settings
 
 
 一个卷只能参与一个镜像关系。
@@ -59,7 +59,7 @@ summary: 您可以同步镜像卷、以便在存储阵列之间实时复制数�
 如果在卷磁贴中选择了某个卷、并且该卷符合镜像条件、则默认情况下将选中该卷。
 
 ====
-. 选择*下一步*并转到 <<Step 2: Select the secondary volume>>。
+. 选择*下一步*并转到  2: Select the secondary volume。
 
 
 
@@ -99,7 +99,7 @@ summary: 您可以同步镜像卷、以便在存储阵列之间实时复制数�
 如果选择的二级卷的容量大于主卷、则可用容量将限制为主卷的大小。
 
 ====
-. 单击*下一步*并转到 <<Step 3: Select synchronization settings>>。
+. 单击*下一步*并转到  3: Select synchronization settings。
 
 
 

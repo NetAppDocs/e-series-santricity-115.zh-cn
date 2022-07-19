@@ -28,11 +28,11 @@ summary: '要为访问管理配置身份验证、您可以使用存储阵列中�
 ====
 配置SAML身份验证是一个多步骤操作步骤 ：
 
-* <<Step 1: Upload the IdP metadata file,第1步：上传IdP元数据文件>>
-* <<Step 2: Export Service Provider files,第2步：导出服务提供商文件>>
-* <<Step 3: Map roles,第3步：映射角色>>
-* <<Step 4: Test SSO login,第4步：测试SSO登录>>
-* <<Step 5: Enable SAML,第5步：启用SAML>>
+*  1: Upload the IdP metadata file,第1步：上传IdP元数据文件
+*  2: Export Service Provider files,第2步：导出服务提供商文件
+*  3: Map roles,第3步：映射角色
+*  4: Test SSO login,第4步：测试SSO登录
+*  5: Enable SAML,第5步：启用SAML
 
 
 

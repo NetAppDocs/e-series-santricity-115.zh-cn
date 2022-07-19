@@ -22,10 +22,10 @@ summary: 您可以创建一个快照卷、以使主机能够访问卷或快照�
 
 创建快照卷的过程包括多步操作步骤 ：
 
-* <<Step 1: Review members>>
-* <<Step 2: Assign to host>>
-* <<Step 3: Reserve capacity>>
-* <<Step 4: Edit settings>>
+*  1: Review members
+*  2: Assign to host
+*  3: Reserve capacity
+*  4: Edit settings
 
 
 
@@ -46,7 +46,7 @@ summary: 您可以创建一个快照卷、以使主机能够访问卷或快照�
 +
 在*查看成员*对话框中、查看选择转换为快照卷的卷列表、然后单击*下一步*。
 
-. 转至 <<Step 2: Assign to host>>。
+. 转至  2: Assign to host。
 
 
 
@@ -85,8 +85,8 @@ summary: 您可以创建一个快照卷、以使主机能够访问卷或快照�
 
 . 单击*下一步*、然后执行以下操作之一：
 +
-** 如果快照卷为读/写卷、则会显示*查看容量*对话框。转至 <<Step 3: Reserve capacity>>。
-** 如果快照卷为只读卷、则会显示*编辑优先级*对话框。转至 <<Step 4: Edit settings>>。
+** 如果快照卷为读/写卷、则会显示*查看容量*对话框。转至  3: Reserve capacity。
+** 如果快照卷为只读卷、则会显示*编辑优先级*对话框。转至  4: Edit settings。
 
 
 
@@ -128,7 +128,7 @@ summary: 您可以创建一个快照卷、以使主机能够访问卷或快照�
 
 
 . (可选)如果要为快照一致性组创建快照卷、则"Reserved Capacity Candidates"表中会显示"*更改候选项*"选项。单击*更改候选项*以选择备用预留容量候选项。
-. 单击*下一步*、然后转到 <<Step 4: Edit settings>>。
+. 单击*下一步*、然后转到  4: Edit settings。
 
 
 
